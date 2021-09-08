@@ -1,0 +1,18 @@
+! version = 2.0
+! var type_yes_or_no = \sType "Yes" or "No" to continue.
+
++ hello bot
+- Hello human!
+
+
++how are you
+-I'm great, how are you?
+-I'm good and you?
+-good :) you?
+-great! You?
+-I'm fine, thanks for asking!
+
++tell me a poem
+-el5abar el enhrda b bflos bokra bbalash \n
+-elyeshel erba te5or 3ala dema8o \n
+-yaama gab el8orab lomo \n
