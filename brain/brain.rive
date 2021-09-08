@@ -1,5 +1,5 @@
 ! version = 2.0
-! var type_yes_or_no = \sType "Yes" or "No" to continue.
+// ! var type_yes_or_no = \sType "Yes" or "No" to continue.
 
 + hello bot
 - Hello human!
