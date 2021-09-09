@@ -20,10 +20,10 @@ def chat(message):
         return -1, "No responce found"
 
 #bot reply function
-while True:
-    msg = str(input("User: "))
-    reply = str(bot.reply('localuser' , msg)) 
-    if msg =="quit":
-       break
-    else:
-        print('Bot: ' + reply)
+#while True:
+#    msg = str(input("User: "))
+#    reply = str(bot.reply('localuser' , msg)) 
+#    if msg =="quit":
+#       break
+#    else:
+#        print('Bot: ' + reply)
