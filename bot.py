@@ -11,7 +11,7 @@ bot.sort_replies()
 #bot reply function
 def chat(message):
     if message == "":
-       return -1,"No message found"
+        return -1,"No message found"
     else:
         responce = bot.reply("user",message)
     if responce:
