@@ -11,7 +11,7 @@ app = Flask(__name__)
 def chat():
     message = "hello bot"
     response = bot.chat(message)
-
+    return response
 
 
 #if app run
