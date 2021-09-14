@@ -7,9 +7,10 @@ import bot
 app = Flask(__name__)
 
 #route
-@app.route("/chat", methods=["GET"])
+@app.route("/chat", methods=["POST"])
 def chat(): 
-    message = "hello bot"
+    request_data = request.get_json()
+    message = request_data['message']
     data = {}
     status, responce = bot.chat(message)    
     if status == 0:
