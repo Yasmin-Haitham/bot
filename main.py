@@ -1,4 +1,4 @@
-from flask import Flask, request,jsonify
+from flask import Flask, request,jsonify, render_template 
 
 #import rivescript connection
 import bot
@@ -22,6 +22,11 @@ def chat():
         data["status"] = 'failed'
         return jsonify(data)
 
+
+@app.route('/')
+def index():
+    
+    return render_template('index.html')
 
 
 #if app run

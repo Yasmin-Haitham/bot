@@ -5,14 +5,21 @@
 - Hello human!
 
 
-+how are you
--I'm great, how are you?
--I'm good and you?
--good :) you?
--great! You?
--I'm fine, thanks for asking!
++ how are you
+- I'm great, how are you?
+- I'm good and you?
+- good :) you?
+- great! You?
+- I'm fine, thanks for asking!
 
-+tell me a poem
--el5abar el enhrda b bflos bokra bbalash \n
--elyeshel erba te5or 3ala dema8o \n
--yaama gab el8orab lomo \n
+
++ i am feeling sad
+- why is it you are 
+
+
+
+
+> object setMood python
+  import utils
+  mood = utils.enterMood(mood)
+< object

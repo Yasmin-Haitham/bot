@@ -1,12 +1,17 @@
 import mysql.connector as mysql
-conn = mysql.connect(host="localhost", user="root", password ="", db="coursebot")
+import datetime
+db = mysql.connect(host="localhost", user="root", password ="", db="coursebot")
 
 
 #get user data
 
-def getUser(user):
-    cur = conn.cursor(dictionary=True)
-    qry = "SELECT * FROM `user` WHERE `username`='{}'".format(user)
 
-#set user data
+def enterMood(mood):
+    cur = db.cur = db.cursor()
+    qry = "INSERT INTO `moodChecker` (date, mood) VALUES (%s, %s)"
+    val = (datetime.datetime.now(), mood)
+    cur.execute(qry, val)
+    db.commit()
+    print(cur.rowcount, "record inserted.")
+    return True
 
