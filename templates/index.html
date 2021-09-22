@@ -15,17 +15,19 @@
             <th>day</th>
             <th>log</th>
         </tr>
-        {% for mood in moodchecker %}
+        <tr>
+            <th>2021/9/22</th>
+            <th>I am sad</th>
+        </tr>
+        {% for mood in mood %}
             <tr>
-                <td>{{ mood.date }}</td>
-                <td>{{ mood.mood }}</td>
-                
+                <td>{{ mood[0] }}</td>
             </tr>
         {% endfor %}
     </table>
     <div>
         <form action="/" method='POST'>
-            <h3>bot:</h3>
+            <h3>bot: <input type="text" value=""></h3>
             <h3>User: </h3>
             <input type="text" name="mood" >
             <input type="submit" value="Submit">

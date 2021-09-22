@@ -1,20 +1,10 @@
 ! version = 2.0
 // ! var type_yes_or_no = \sType "Yes" or "No" to continue.
 
-+ hello bot
-- Hello human!
 
 
-+ how are you
-- I'm great, how are you?
-- I'm good and you?
-- good :) you?
-- great! You?
-- I'm fine, thanks for asking!
-
-
-+ i am feeling sad
-- why is it you are 
++ * feel * 
+- <set mood=<star2>><call>setMood <star2></call> why is it you are <mood>
 
 
 

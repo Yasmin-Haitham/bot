@@ -15,12 +15,12 @@ def chat():
     status, responce = bot.chat(message)    
     if status == 0:
         data["reply"] = responce            
-        data["status"] = 'Success'
+        # data["status"] = 'Success'
         return jsonify(data)
     else:
         data["reply"] = responce
-        data["status"] = 'failed'
-        return jsonify(data)
+        # data["status"] = 'failed'
+        return render_template('index.html', mood = jsonify(data))
 
 
 @app.route('/')
